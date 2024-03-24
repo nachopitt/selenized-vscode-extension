@@ -1,0 +1,26 @@
+{
+  "name": "selenized",
+  "displayName": "selenized",
+  "description": "Selenized Color Theme for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Selenized Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/selenized-dark-color-theme.json"
+      },
+      {
+        "label": "Selenized Light",
+        "uiTheme": "vs",
+        "path": "./themes/selenized-light-color-theme.json"
+      }
+    ]
+  }
+}
